@@ -38,7 +38,7 @@ function App() {
               Authorization:
                 "Basic " +
                 btoa(
-                  "project-test-396c7c99-5de0-4fa4-81c2-d11ba9d8a30a:secret-test-Cc2aI6TwXGJ7xOAu-DfNIuB5H3xfW_y_Fz0="
+                  "<Project-id>:<project-secret>"
                 ),
             },
 
@@ -75,7 +75,7 @@ function App() {
                   Authorization:
                     "Basic " +
                     btoa(
-                      "project-test-396c7c99-5de0-4fa4-81c2-d11ba9d8a30a:secret-test-Cc2aI6TwXGJ7xOAu-DfNIuB5H3xfW_y_Fz0="
+                      "<Project-id>:<project-secret>"
                     ),
                 },
                 body: JSON.stringify({
