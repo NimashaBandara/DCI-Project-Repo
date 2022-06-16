@@ -3,5 +3,5 @@
    Authorization:
    "Basic " +
    btoa(
-   <Project-id>:<project-secret>
+   "<Project-id>:<project-secret>"
    )
